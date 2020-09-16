@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+
+    <script type='text/javascript'
+        src='https://maps-generator.com/google-maps-authorization/script.js?id=c33f8727560ec76a0967403f9a9e57520a7eafa6'></script>
+    <link rel="icon" type="image/png" href="e_pehnava_chaitanya.png">
+
+<script>
+    console.log('Hello');
+</script>
+    <style>
+        .navigation {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        #location {
+            color: white;
+            width: 100%;
+            height: 71vh;
+            position: relative;
+            display: flex;
+
+        }
+
+        .sec1 p {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* background: url(./images/location.jpg)no-repeat center center/cover ; */
+
+        #location::before {
+            background: url('./images/location.jpg')no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            opacity: 0.3;
+            z-index: -4;
+        }
+
+        .map {
+            margin: 50px;
+            margin-top: 90px;
+            margin-left: 115px;
+        }
+
+        .info {
+            width: 343px;
+            height: 401px;
+            margin-left: 90px;
+            background-color: #ffffff8f;
+            text-align: center;
+            order: 2;
+            color: black;
+            border-radius: 10%;
+            border: 2px groove #ffc0cb57;
+            margin-top: 151px;
+            box-shadow: 8px 9px 18px 12px #698cca;
+
+
+        }
+
+        .info p {
+            font-size: 2.3rem;
+            text-align: center;
+            margin-top: 88px;
+            font-family: monospace;
+        }
+
+        .partners {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin-top: 167px;
+            background-color: rgb(241, 241, 241);
+            height: 50vh;
+            width: 97vw;
+            /* position: absolute; */
+        }
+
+        h2 {
+            font-size: 2.5rem !important;
+            color: black;
+        }
+
+        .images {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            /* padding: 30px; */
+            width: 80%;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .images img:hover {
+            transform: scale(1.3);
+            transform: translateX(30px);
+            border-radius: 15%;
+            /* border:2px solid black; */
+            background-color: rgb(148, 144, 144);
+
+
+        }
+/* 
+        html {
+            scroll-behavior: smooth;
+        } */
+
+        .images img {
+            width: 260px;
+            padding: 20px;
+            transition: all 0.5s;
+            /* height: 400px; */
+        }
+
+        header::before {
+            background: url('unsplash.jpg')no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 777px;
+            width: 100%;
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+        .navbar ul li {
+            transition: all 0.3s ease-in;
+        }
+
+        .navbar ul li:hover {
+            color: rgb(31, 30, 30);
+            cursor: pointer;
+            /* transform:scale(1.2); */
+            transform: translateX(8px);
+        }
+
+        iframe {
+            box-shadow: 10px 10px 12px 8px black;
+            border-radius: 10%;
+        }
+
+        .item {
+            padding: 0 20px;
+            font-size: 025px;
+            margin: 20px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        .sec1 {
+            /* flex-wrap: wrap-reverse; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            height: 350px;
+            padding: 30px;
+            margin: 100px;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        .info h3 {
+            font-size: 2.5rem;
+            margin-top: 40px;
+            text-decoration: underline;
+            color: rgb(28, 61, 124);
+        }
+
+        
+
+.package-container{
+    display:flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    transition:all 0.5s ease-in;
+    justify-content: space-evenly;
+}
+.package-container::before{
+background:url(./images/package.jpg)no-repeat center center/cover;
+content:"";
+position: absolute;
+height:84%;
+width:100%;
+z-index:-7;
+opacity: 0.3;
+}
+.package-container p{
+    margin-top: 60px;
+}
+.package1{
+display: flex;
+flex-direction: column;
+}
+.package2{
+    display: flex;
+flex-direction: column;
+}
+#normal-package{
+    
+    background-color: dodgerblue !important;
+    box-shadow: 7px 7px 22px 1px black !important;
+}
+#normal-package img{
+    width:350px;
+}
+
+.box12{
+    width:400px;
+     /* height:470px; */
+    color:white;
+    
+    
+    transform: translateY(300px);
+    transition:all 0.5s ease-in;
+    
+    }
+    .box12 img{
+        width:350px;
+        box-shadow: 3px 8px 16px 5px white;
+    }
+    .box12:hover{
+        
+    transform: translateY(0px);
+    
+    }
+    .box12 img:hover{
+    transition:all 0.5s ease-in-out;
+    /* width:300px; */
+    }
+    
+    
+    
+    
+
+.box21{
+    width: 305px;
+    height: 300px;
+    /* border: 2px solid greenyellow; */
+    color: #fff;
+    padding: 10px;
+    z-index: -4;
+    opacity: 1;
+    height: 278px;
+    background-color: darkslateblue;
+    border-radius: 10%;
+    box-shadow: 7px 7px 22px 1px #607D8B;
+    }
+
+footer{
+    margin-top: 50px;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <!-- <img src="e_pehnava_chaitanya.png" id="logo"> -->
+                <li class="item"><a href="#info1"> Home</a></li>
+                <li class="item"> Partners</li>
+                <li class="item"> Location</li>
+                <li class="item"> Contact us</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="sec1">
+        <h1>WELCOME TO E-PEHNAVA</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum ducimus nihil velit, pariatur, rerum
+            voluptate incidunt Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, consectetur!
+        </p>
+    </section>
+    <!-- <hr> -->
+
+    <section class="partners">
+        <h2>Our Partners</h2>
+        <div class="images">
+
+
+
+            <img src="./images/partner2.png">
+            <img src="./images/partner3.png">
+
+            <img src="./images/partner2.png">
+
+            <img src="./images/partner3.png">
+        </div>
+    </section>
+
+
+
+    <section id="location">
+
+
+        <div class="map">
+
+            <iframe width="520" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Vijaynagar%20Indore+(Outlet)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <a href='http://maps-generator.com/'>Maps-generator.com</a>
+        </div>
+
+        <div class="info" id="info1">
+            <h3>Our Address</h3>
+
+            <p>Scheme no 54<br> Vijaynagar<br>Indore,M.P.<br>India </p>
+        </div>
+    </section>
+
+    <div class="video1">
+        <!-- <video autoplay audio once><source src="video.mp4" type="video/mp4"></video> -->
+        </div>
+        <!-- <h2 class="text-center">Packages</h2> -->
+<section class="package-container">
+    
+        <div class="pacakge1">
+        <div class="box12">
+            <img src="blazer.jpeg">
+        </div>
+       
+        <div class="box21">
+            <h3 class="text-center">Special Package</h3>
+            <p> 3 T-SHIRT <br> 2 blazer <br>4 trouser</p>
+        </div>
+    </div>
+
+    <div class="pacakge1">
+        <div class="box12">
+            <img src="blazer.jpeg">
+        </div>
+       
+        <div class="box21" id="normal-package">
+            <h3 class="text-center">Normal Package</h3>
+            <p> 1 T-SHIRT <br> 2 shirt <br>2 trouser</p>
+        </div>
+    </div>
+</section>
+    <footer>
+        <p class="text-center"> Copyright @E-PEHNAVA 2020</p>
+    </footer>
+</body>
+
+</html>
