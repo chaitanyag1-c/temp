@@ -74,8 +74,8 @@ header::before{
     margin: 16px;
 }
 .info{
-    width: 302px;
-    height: 374px;
+    width: 302px !important;
+    height: 374px !important;
     margin-left: 42px;
     background: linear-gradient(120deg, #00ffffcf, pink);
     text-align: center;
