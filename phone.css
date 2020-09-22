@@ -4,7 +4,7 @@
     margin-right:0px;
     flex-direction: column;
     flex-wrap: wrap;
-    height:136vh;
+    height:173vh !important;
     /* width:98vw; */
 }
 
@@ -22,7 +22,7 @@
     margin-right:0px;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 148vh !important;
+    height: 173vh !important;
 }
 .images {
     width:200px;
