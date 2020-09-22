@@ -5,7 +5,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     height:173vh !important;
-    /* width:98vw; */
+    
 }
 
 .package-container{
@@ -22,7 +22,7 @@
     margin-right:0px;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 173vh !important;
+    height: 173vh !important; 
 }
 .images {
     width:200px;
@@ -74,17 +74,11 @@ header::before{
     margin: 16px;
 }
 .info{
-    width: 302px !important;
-    height: 374px !important;
-    margin-left: 42px;
-    background: linear-gradient(120deg, #00ffffcf, pink);
-    text-align: center;
+    
+    margin-left: 17px;
     order: 2;
-    /* color: black; */
-    border-radius: 12%;
-    border: 2px groove #ffc0cb57;
     margin-top: 43px;
-    box-shadow: 8px 9px 18px 12px #698cca;
+    
 }
 .footer{
     overflow: hidden;
@@ -95,7 +89,7 @@ header::before{
     width: 208%;
 } 
 .map{
-    margin-left: -1px;
+    margin-left: -1px !important;
 }
 
 .box12 img{
